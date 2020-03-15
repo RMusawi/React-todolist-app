@@ -66,10 +66,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <AddTask createTask={this.createTask}/>
-        <TaskList tasks={this.state.tasks}
-          completeTask={this.completeTask}
-          deleteTask={this.deleteTask}/>
+        <div className="container">
+          <AddTask createTask={this.createTask}/>
+          <TaskList tasks={this.state.tasks}
+            completeTask={this.completeTask}
+            deleteTask={this.deleteTask}/>
+        </div>
       </div>
     );
   }

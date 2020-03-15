@@ -21,7 +21,8 @@ class AddTask extends Component {
             <div className="create-task">
                 <input type="text"
                     value={this.state.value}
-                    placeholder="What would Reza do?"
+                    className="add-task__input"
+                    placeholder="What would Reza like todo?"
                     onChange={(e) => { this.setState({value: e.target.value}) }}/>
 
                 <button className="addButton" onClick={this.add}>ADD</button>

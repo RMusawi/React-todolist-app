@@ -1,18 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 li {
   list-style: none;
 }
-
-.addButton {
-  background: #4791d0;
-  border: none;
-  color: white;
-  padding: 5px 10px;
+.add-task__input {
+  width: 500px;
+  height: 50px;
+  font-size: 24px;
+  margin-top: 30px;
+  border-radius: 14px;
+  padding-left:15px;
+  border: 1px solid #efefef;
+  outline: none;
 }
 
-.create-task {
-  color: #ddd;
+.addButton {
+  color: #FFFFFF;
+  background-color: #4790d0;
+  border: none;
+  padding: 15px;
+  margin-left: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.task-list {
+  padding: 0;
+}
+.task-list__item {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin: 0 40px 20px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  box-shadow:
+  0 3px 5.3px rgba(0, 0, 0, 0.028),
+  0 16.3px 17.9px rgba(0, 0, 0, 0.047),
+  0 21px 80px rgba(0, 0, 0, 0.07)
+;
+
+background: #FFFFFF;
+}
+
+.task-list__item p {
+  font-size: 24px;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.complete {
+  color: #FFFFFF;
+  background-color: #8bc34a;
+  border: none;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.complete:hover {
+  box-shadow:
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.delete {
+  color: #FFFFFF;
+  background-color: #c30000;
+  border: none;
+  padding: 15px;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.delete:hover {
+  box-shadow:
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
 }
