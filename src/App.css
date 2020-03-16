@@ -20,9 +20,9 @@ li {
 }
 
 .addButton {
-  color: #FFFFFF;
-  background-color: #4790d0;
-  border: none;
+  color: #4790d0;
+  background-color: #FFFFFF;
+  border: solid #4790d0;
   padding: 15px;
   margin-left: 20px;
   border-radius: 100px;
@@ -56,9 +56,9 @@ background: #FFFFFF;
 }
 
 .complete {
-  color: #FFFFFF;
-  background-color: #8bc34a;
-  border: none;
+  color: #8bc34a;
+  background-color: #FFFFFF;
+  border: solid #8bc34a;
   padding: 15px;
   margin-right: 20px;
   border-radius: 100px;
@@ -72,9 +72,9 @@ background: #FFFFFF;
 }
 
 .delete {
-  color: #FFFFFF;
-  background-color: #c30000;
-  border: none;
+  color: #c30000;
+  background-color: #FFFFFF;
+  border: solid #c30000;
   padding: 15px;
   border-radius: 100px;
   cursor: pointer;
